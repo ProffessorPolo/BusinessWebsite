@@ -3,9 +3,9 @@
 //Retrieve form data. 
 //GET - user submitted data using AJAX
 //POST - in case user does not support javascript, we'll use POST instead
-$name = ($_GET['name']) ? $_GET['name'] : $_POST['name'];
-$email = ($_GET['email']) ?$_GET['email'] : $_POST['email'];
-$comment = ($_GET['comment']) ?$_GET['comment'] : $_POST['comment'];
+$name = ($_GET['name2']) ? $_GET['name2'] : $_POST['name2'];
+$email = ($_GET['email2']) ?$_GET['email2'] : $_POST['email2'];
+$comment = ($_GET['message2']) ?$_GET['message2'] : $_POST['message2'];
 
 //flag to indicate which method it uses. If POST set it to 1
 
